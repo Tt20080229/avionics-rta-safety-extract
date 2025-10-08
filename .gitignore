@@ -1,0 +1,55 @@
+# Build artifacts
+/build/
+/out/
+/dist/
+/bin/
+/obj/
+/lib/
+/tmp/
+/*.exe
+/*.dll
+/*.dylib
+/*.so
+/*.a
+*.o
+*.obj
+
+# Coverage / profiling
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+coverage/
+lcov.info
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+install_manifest.txt
+Testing/
+_ctest*
+
+# Node (Open MCT plugin)
+openmct/plugin/node_modules/
+.npmrc
+# Keep package-lock.json committed for reproducibility
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# IDE / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+# SBOM / build info (if generated)
+out.sbom.*
+buildinfo.json
