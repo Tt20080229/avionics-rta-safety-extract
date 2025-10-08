@@ -1,0 +1,3 @@
+# FILE: .clang-tidy
+Checks: '*, -clang-analyzer-security.insecureAPI.strcpy, -fuchsia-*'
+WarningsAsErrors: '*'
