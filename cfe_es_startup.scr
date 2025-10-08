@@ -1,0 +1,3 @@
+# FILE: cfe_es_startup.scr
+CFE_APP, RTA_MONITOR_APP, /apps/rta_monitor_app/rta_monitor_app.so, RTA_MONITOR_APP_MAIN, 50, 16384, 0x0, 0
+CFE_APP, RECEIPT_VERIFY_APP, /apps/receipt_verify_app/receipt_verify_app.so, RECEIPT_VERIFY_APP_MAIN, 51, 16384, 0x0, 0
