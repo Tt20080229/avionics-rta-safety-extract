@@ -1,0 +1,7 @@
+// FILE: openmct/plugin/package.json
+{
+  "name": "verified-rta-plugin",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js"
+}
